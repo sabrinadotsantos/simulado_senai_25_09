@@ -46,7 +46,14 @@ header a {
     margin-left: 270px;
 }
 
-.menu_links {}
+.menu_links {
+    display: flex;
+    align-items: center;
+    /* margin-left: -290px; */
+    gap: 10px;
+    
+    
+}
 
 .botao_logar {
     width: 115px;
@@ -54,8 +61,23 @@ header a {
     border-radius: 5px;
     background: #B51D44;
     text-decoration: none;
-    margin-left: 270px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+
 }
+
+.botao_logar a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
 
 /*BANNER*/
 
@@ -290,5 +312,13 @@ footer {
     align-items: center;
     justify-content: space-around;
 
+}
 
+footer span {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
