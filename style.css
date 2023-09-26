@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: cell;
+}
+
+:root {
+    --branco: #ffffff;
+    --roxo: #1f1848;
+    --vinho: #511947;
+    --bordo: #831b46;
+    --rosa: #b51d45;
+
+    --font1: 'Poppins', sans-serif;
+}
+
+
+
+.posicionamento_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1600px;
+    height: 85px;
+
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+header a {
+
+    color: #201849;
+    font-family: var(--font1);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.posicionamento_header img {
+    width: 115.003px;
+    height: 20px;
+    margin-left: 270px;
+}
+
+.menu_links {}
+
+.botao_logar {
+    width: 115px;
+    height: 45px;
+    border-radius: 5px;
+    background: #B51D44;
+    text-decoration: none;
+    margin-left: 270px;
+}
+
+/*BANNER*/
+
+#banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1600px;
+    height: 700px;
+    flex-shrink: 0;
+    background-color: #B51D44;
+    ;
+}
+
+#banner img {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#banner span {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+/*VISAO*/
+
+#card_eventos {
+    width: 1600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card_eventos .trio_cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+#card_eventos h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+#card_eventos .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid #821B47;
+}
+
+#card_eventos .card h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+#card_eventos .card p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#card_eventos .card span {
+    color: #B51D44;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}
+
+
+
+/*VISAO*/
+
+
+#visao_home {
+    width: 1600px;
+    height: 458px;
+    flex-shrink: 0;
+    background: #B51D44;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#visao_home h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: normal;
+    margin-top: 42px;
+    margin-bottom: 50px;
+
+}
+
+/* #visao_home .linha2 {
+    width: 125px;
+    height: 2px;
+
+} */
+
+
+#visao_home p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 75%;
+}
+
+
+
+
+
+
+
+/*CONTATO*/
+
+#contato_home {
+    width: 1600px;
+    height: 500px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contato_home h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 57px;
+    margin-bottom: 80px;
+}
+
+svg {
+    width: 248.546px;
+    height: 192.421px;
+    flex-shrink: 0;
+}
+
+#contato_home .dados {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-direction: row
+}
+
+#contato_home .dados_contato {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* flex-direction: row */
+    margin-left: 80px;
+    gap: 10px;
+}
+
+
+
+#contato_home h3 {
+    color: #000;
+    font-family: var(--font1);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-items: center;
+}
+
+#contato_home h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    width: 1600px;
+    height: 40px;
+    background: #FFF;
+    box-shadow: 92px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
