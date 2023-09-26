@@ -50,8 +50,10 @@ header a {
     display: flex;
     align-items: center;
     /* margin-left: -290px; */
-    gap: 10px;
-    
+    gap: 95px;
+    text-decoration: none;
+    text-transform: none;
+
     
 }
 
